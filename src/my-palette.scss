@@ -1,0 +1,105 @@
+$dark-primary-text: rgba(black, 0.87);
+$light-primary-text: white;
+
+/* http://mcg.mbitson.com/#!?bluecustom=%23235b8b - palette generator
+https://material.io/design/color/the-color-system.html#tools-for-picking-colors
+https://material.io/archive/guidelines/style/color.html#color-color-system*/
+
+$md-bluecustom: (
+    50 : #e5ebf1,
+    100 : #bdcedc,
+    200 : #91adc5,
+    300 : #658cae,
+    400 : #44749c,
+    500 : #235b8b,
+    600 : #1f5383,
+    700 : #1a4978,
+    800 : #15406e,
+    900 : #0c2f5b,
+    A100 : #90bcff,
+    A200 : #5d9dff,
+    A400 : #2a7eff,
+    A700 : #106eff,
+    contrast: (
+        50 : $dark-primary-text,
+        100 : $dark-primary-text,
+        200 : $dark-primary-text,
+        300 : $dark-primary-text,
+        400 : $light-primary-text,
+        500 : $light-primary-text,
+        600 : $light-primary-text,
+        700 : $light-primary-text,
+        800 : $light-primary-text,
+        900 : $light-primary-text,
+        A100 : $dark-primary-text,
+        A200 : $dark-primary-text,
+        A400 : $light-primary-text,
+        A700 : $light-primary-text,
+    )
+);
+
+$md-greencustom: (
+    50 : #e5f1f1,
+    100 : #bddcdb,
+    200 : #91c5c4,
+    300 : #65aeac,
+    400 : #449c9a,
+    500 : #238b88,
+    600 : #1f8380,
+    700 : #1a7875,
+    800 : #156e6b,
+    900 : #0c5b58,
+    A100 : #90fffa,
+    A200 : #5dfff8,
+    A400 : #2afff6,
+    A700 : #10fff5,
+    contrast: (
+        50 : $dark-primary-text,
+        100 : $dark-primary-text,
+        200 : $dark-primary-text,
+        300 : $dark-primary-text,
+        400 : $dark-primary-text,
+        500 : $light-primary-text,
+        600 : $light-primary-text,
+        700 : $light-primary-text,
+        800 : $light-primary-text,
+        900 : $light-primary-text,
+        A100 : $dark-primary-text,
+        A200 : $dark-primary-text,
+        A400 : $dark-primary-text,
+        A700 : $dark-primary-text,
+    )
+);
+
+$md-warncustom: (
+    50 : #f7eae4,
+    100 : #eccbbb,
+    200 : #dfa98e,
+    300 : #d28761,
+    400 : #c96d3f,
+    500 : #bf531d,
+    600 : #b94c1a,
+    700 : #b14215,
+    800 : #a93911,
+    900 : #9b290a,
+    A100 : #ffd2c9,
+    A200 : #ffa896,
+    A400 : #ff7d63,
+    A700 : #ff6849,
+    contrast: (
+        50 : $dark-primary-text,
+        100 : $dark-primary-text,
+        200 : $dark-primary-text,
+        300 : $dark-primary-text,
+        400 : $dark-primary-text,
+        500 : $light-primary-text,
+        600 : $light-primary-text,
+        700 : $light-primary-text,
+        800 : $light-primary-text,
+        900 : $light-primary-text,
+        A100 : $dark-primary-text,
+        A200 : $dark-primary-text,
+        A400 : $dark-primary-text,
+        A700 : $dark-primary-text,
+    )
+);
