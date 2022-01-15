@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.sidenav {
+  background: #235b8b;
+  width: 13rem;
+}
+
+.sidenav a {
+  color: white;
+}
+
+.material-icons {
+  margin-right: 1rem;
+  color: white;
+}
+
+.menu mat-icon {
+  color: #235b8b;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 10rem;
+  margin: auto auto 1rem auto;
+}
