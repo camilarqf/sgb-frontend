@@ -11,12 +11,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { UsuarioListComponent } from './components/usuario/usuario-list/usuario-list.component';
 
 
 
 
 @NgModule({
-  declarations: [AppComponent, SidenavComponent],
+  declarations: [AppComponent, SidenavComponent, UsuarioListComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
