@@ -19,10 +19,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { UsuarioListComponent } from './components/usuario/usuario-list/usuario-list.component';
+import { BibliotecariosListComponent } from './components/bibliotecarios/bibliotecarios-list/bibliotecarios-list.component';
 
 
 @NgModule({
-  declarations: [AppComponent, SidenavComponent, UsuarioListComponent],
+  declarations: [AppComponent, SidenavComponent, UsuarioListComponent, BibliotecariosListComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
