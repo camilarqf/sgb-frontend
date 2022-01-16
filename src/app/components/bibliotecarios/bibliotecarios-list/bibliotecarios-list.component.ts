@@ -16,7 +16,7 @@ export class BibliotecariosListComponent implements OnInit {
   dataSource = new MatTableDataSource<Bibliotecario>(this.DATA);
   ngOnInit(): void {
     this.findAll();
-    console.log(this.dataSource)
+    console.log(this.dataSource);
   }
 
   findAll(): void {

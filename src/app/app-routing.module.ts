@@ -1,3 +1,4 @@
+import { BibliotecariosListComponent } from './components/bibliotecarios/bibliotecarios-list/bibliotecarios-list.component';
 import { UsuarioListComponent } from './components/usuario/usuario-list/usuario-list.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { NgModule } from '@angular/core';
@@ -12,6 +13,10 @@ const routes: Routes = [
         path: 'usuarios',
         component: UsuarioListComponent,
       },
+      {
+        path: 'bibliotecarios',
+        component: BibliotecariosListComponent
+      }
     ],
   },
 ];
